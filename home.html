@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink & Cocktails</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <h2>Gastronomia News</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="#">Críticas</a></li>
+                <li><a href="#">Tendências</a></li>
+                <li><a href="#">Chefs</a></li>
+               
+                <li><a href="#">Eventos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>todo dia <span>bebidas</span> frescas</h1>
+            <p>descubra receitas de drinks, bares e muito mais...</p>
+            <button>Details</button>
+        </div>
+        <div class="hero-img">
+            <img src="img/image-removebg-preview.png" alt="juice">
+        </div>
+    </section>
+
+    
+
+    <section class="popular-recipes">
+        <h2>Receitas Populares da Semana</h2>
+        <!-- Início do Carrossel de Cards -->
+        <div id="recipeCardCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/OIP.jpg" class="card-img-top" alt="Receita 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mogito</h5>
+                                    <p class="card-text">um refrescante drink de verão com rum, hortelã, limão e água com gás. Veja os ingredientes...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/rosinha.jpg" class="card-img-top" alt="Receita 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cosmopolitan</h5>
+                                    <p class="card-text">um coquetel clássico com vodka, suco de cranberry, triple sec e limão.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/margarita.jpg" class="card-img-top" alt="Receita 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Margarida</h5>
+                                    <p class="card-text">um coquetel clássico de tequila, que consiste em tequila e suco de limão fresco.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/bluee.jpg" class="card-img-top" alt="Receita 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blue Lagoon</h5>
+                                    <p class="card-text">um delicioso coquetel azulado com vodka, Curaçau Blue e limonada.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/copovermeio.jpg" class="card-img-top" alt="Receita 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Salada Tropical</h5>
+                                    <p class="card-text">Uma combinação perfeita de frutas e verduras.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/copovermeio.jpg" class="card-img-top" alt="Receita 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Salada Tropical</h5>
+                                    <p class="card-text">Uma combinação perfeita de frutas e verduras.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais carousel-item para outros conjuntos de cards -->
+            </div>
+            <!-- Controles do Carrossel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#recipeCardCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recipeCardCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Fim do Carrossel de Cards -->
+        
+    </section>
+
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="newsletter">
+                <h3>Assine e Receba Atualizações</h3>
+                <input type="email" placeholder="Seu e-mail">
+                <button>Assinar</button>
+            </div>
+            <div class="social-media">
+                <h3>Me apoie</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>

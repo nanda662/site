@@ -1,0 +1,92 @@
+/* Definições de fontes */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #e74c3c;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Lemon-regular';
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.drink-recipe {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.drink-title {
+    font-family: 'Lemon-regular';
+    color: #e74c3c;
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #666;
+}
+
+.recipe-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-details li {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.instrucoes {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    
+    width: 100%;
+    bottom: 0;
+   
+}
